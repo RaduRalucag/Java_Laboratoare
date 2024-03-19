@@ -12,4 +12,5 @@ public abstract class CalculationResult {
     }
 
     public abstract Object computeResult();
+
 }
