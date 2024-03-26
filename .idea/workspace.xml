@@ -4,25 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c76fcc-6ce9-4554-9a45-ef21d7572569" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="36c76fcc-6ce9-4554-9a45-ef21d7572569" name="Changes" comment="master commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JustMyFirstException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/CalculatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/CalculatorRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/InvalidArgumentsLengthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/InvalidOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/UnknownOperandTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task3/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task4/Task4Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task5/Task5Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/deserializer/RawDataStudentDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/deserializer/StudentDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/deserializer/TextStudentDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/serializer/RawDataStudentSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/serializer/StudentSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task6/serializer/TextStudentSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/CalculationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/CalculationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/InputConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/InputConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/SmarterCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/SmarterCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/calculatorResult/BooleanCalculationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/calculatorResult/BooleanCalculationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/calculatorResult/CalculationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/calculatorResult/CalculationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SmarterCalculator/requestMapper/NumberCalculatorRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SmarterCalculator/requestMapper/NumberCalculatorRequestMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab4" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RaduRalucag&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d806be43-e945-411a-8be0-1154ab70dfa4" />
+        <option name="url" value="https://github.com/RaduRalucag/Java_Laboratoare.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dJKAqlhRV2tFs5snPvMKyKQNwA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +77,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculatorTest.executor": "Run",
+    "Application.ConstructorMethodRunner.executor": "Run",
+    "Application.ExceptionMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OrtherRunner.executor": "Run",
+    "Application.PatrulaterRunner.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.StudentMain.executor": "Run",
+    "Application.Task4Main.executor": "Run",
+    "Application.Task5Main.executor": "Run",
+    "Maven.Java_Laboratoare [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "lab__4",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -44,12 +101,19 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
@@ -62,22 +126,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709720607242</updated>
-      <workItem from="1709720608366" duration="901000" />
+      <workItem from="1709720608366" duration="4392000" />
+      <workItem from="1709726847231" duration="3228000" />
+      <workItem from="1710270802602" duration="5214000" />
+      <workItem from="1710431466681" duration="12000" />
+      <workItem from="1710770567710" duration="5162000" />
+      <workItem from="1710857226692" duration="3044000" />
+      <workItem from="1711450821710" duration="2350000" />
     </task>
+    <task id="LOCAL-00001" summary="added main project">
+      <option name="closed" value="true" />
+      <created>1709721646505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709721646505</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task1 + task2 + task3">
+      <option name="closed" value="true" />
+      <created>1709725487670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709725487670</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task4">
+      <option name="closed" value="true" />
+      <created>1709729699509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709729699509</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tema2">
+      <option name="closed" value="true" />
+      <created>1710275833706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710275833707</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Unique List">
+      <option name="closed" value="true" />
+      <created>1710858097875</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858097875</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Smarter Calculator with immutable classes">
+      <option name="closed" value="true" />
+      <created>1710860057654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860057654</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Smarter Calculator with immutable classes">
+      <option name="closed" value="true" />
+      <created>1710860152986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860152986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added main project" />
+    <MESSAGE value="task1 + task2 + task3" />
+    <MESSAGE value="task4" />
+    <MESSAGE value="tema2" />
+    <MESSAGE value="Unique List" />
+    <MESSAGE value="Smarter Calculator with final classes" />
+    <MESSAGE value="Smarter Calculator with immutable classes" />
+    <MESSAGE value="master commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="master commit" />
   </component>
 </project>
