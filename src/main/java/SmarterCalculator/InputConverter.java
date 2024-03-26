@@ -14,10 +14,11 @@ public final class InputConverter {
 
     private static final List<CalculatorRequestMapper> MAPPERS = Arrays.asList(new BooleanCalculatorRequestMapper(), new IntegerCalculatorRequestMapper(), new DoubleCalculatorRequestMapper());
 
-    public static List<CalculationRequest> mapRequests(String[] args) {
+    public static List<CalculationRequest> mapRequests(String[] args) throws UnknownOperandTypeException, InvalidOperationException {
         if (args.length < 3 || args.length % 3 != 0) {
-            throw new IllegalArgumentException();
+            throw new InvalidOperationException(Arrays.toString(args));
         }
+
 
         List<CalculationRequest> calculatorRequests = new ArrayList<>();
 

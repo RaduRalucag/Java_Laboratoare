@@ -5,7 +5,8 @@ import SmarterCalculator.calculatorResult.CalculationResult;
 import java.util.List;
 
 public class Main {
-    public static void main() {
+
+    public static void main(String[] arg) throws UnknownOperandTypeException, InvalidOperationException {
         String[] args = new String[]{
                 "1", "+", "2",
                 "2", "*", "5",
@@ -17,7 +18,7 @@ public class Main {
         runSmarterCalculator(args);
     }
 
-    private static void runSmarterCalculator(String[] args) {
+    private static void runSmarterCalculator(String[] args) throws UnknownOperandTypeException, InvalidOperationException {
         List<CalculationResult> calculationResults =  SmarterCalculator.calculate(args);
 
         for (CalculationResult result : calculationResults) {

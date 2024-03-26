@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public final class SmarterCalculator {
 
-    public static List<CalculationResult> calculate(String[] args) {
+    public static List<CalculationResult> calculate(String[] args) throws UnknownOperandTypeException, InvalidOperationException {
         return InputConverter.mapRequests(args)
                 .stream()
                 .map(SmarterCalculator::createCalculatorResponse)

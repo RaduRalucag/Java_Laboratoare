@@ -1,6 +1,7 @@
 package SmarterCalculator.calculatorResult;
 
 import SmarterCalculator.CalculationRequest;
+import SmarterCalculator.InvalidOperationException;
 
 public class BooleanCalculationResult extends CalculationResult {
     public BooleanCalculationResult(CalculationRequest request) {
@@ -8,15 +9,24 @@ public class BooleanCalculationResult extends CalculationResult {
     }
 
     @Override
-    public Object computeResult() {
-        CalculationRequest request = getRequest();
-        Boolean leftOperand = (Boolean) request.leftOperand();
-        Boolean rightOperand = (Boolean) request.rightOperand();
+    public Object computeResult() throws InvalidOperationException {
+        CalculationRequest request = null;
+        try {
+            request = getRequest();
+            Boolean leftOperand = (Boolean) request.leftOperand();
+            Boolean rightOperand = (Boolean) request.rightOperand();
 
-        return switch (request.operation()) {
-            case "&&" -> leftOperand && rightOperand;
-            case "||" -> leftOperand || rightOperand;
-            default -> throw new IllegalArgumentException();
-        };
+            return switch (request.operation()) {
+                case "&&" -> leftOperand && rightOperand;
+                case "||" -> leftOperand || rightOperand;
+                default -> throw new IllegalArgumentException();
+            };
+
+        } catch (IllegalArgumentException e) {
+            assert request != null;
+            throw new InvalidOperationException(request.operation());
+        }
+
+
     }
 }

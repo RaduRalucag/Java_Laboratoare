@@ -1,6 +1,7 @@
 package SmarterCalculator.requestMapper;
 
 import SmarterCalculator.CalculationRequest;
+import SmarterCalculator.UnknownOperandTypeException;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,8 +15,8 @@ public abstract class NumberCalculatorRequestMapper implements CalculatorRequest
         if (!isOperationValid(operatorString)) {
             return Optional.empty();
         }
-
         return mapNumbers(leftOperandString, operatorString, rightOperandString);
+
     }
 
 

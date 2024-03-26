@@ -1,8 +1,7 @@
 package SmarterCalculator;
 
-import lombok.Getter;
 
-@Getter
+
 public record CalculationRequest(Object leftOperand, Object rightOperand, String operation) {
 
     public RequestType getRequestType() {

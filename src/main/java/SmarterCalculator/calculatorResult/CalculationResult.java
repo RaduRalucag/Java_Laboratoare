@@ -1,6 +1,7 @@
 package SmarterCalculator.calculatorResult;
 
 import SmarterCalculator.CalculationRequest;
+import SmarterCalculator.InvalidOperationException;
 import lombok.Getter;
 
 @Getter
@@ -11,6 +12,6 @@ public abstract class CalculationResult {
         this.request = request;
     }
 
-    public abstract Object computeResult();
+    public abstract Object computeResult() throws InvalidOperationException;
 
 }
